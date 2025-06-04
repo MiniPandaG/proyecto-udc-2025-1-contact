@@ -1,4 +1,4 @@
-# ContactPro - Gestor de Contactos Profesionales
+# ContactPro - Gestor de Contactos
 
 **ContactPro** es una aplicación web moderna para la gestión de contactos, desarrollada como parte de un proyecto académico para la Universidad de Cartagena.
 
