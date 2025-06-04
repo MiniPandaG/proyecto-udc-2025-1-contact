@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ContactPro - Gestor de Contactos Profesionales
 
-## Getting Started
+**ContactPro** es una aplicación web moderna para la gestión de contactos, desarrollada como parte de un proyecto académico para la Universidad de Cartagena.
 
-First, run the development server:
+---
+
+## ✨ Características Principales
+
+- ✅ Gestión de Contactos  
+- ✅ Llamadas Directas  
+- ✅ Contacto por WhatsApp  
+- ✅ Envío de Correos Electrónicos  
+- ✅ Autenticación Segura  
+- ✅ Interfaz Responsiva  
+- ✅ Diseño Oscuro Moderno  
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+### Frontend
+
+- **Next.js 14 (App Router)**
+- **React 18**
+- **Tailwind CSS**
+- **Framer Motion** (animaciones)
+- **NextAuth.js** (autenticación)
+- **React Icons**
+
+### Backend
+
+- **Next.js API Routes**
+- **MongoDB** (base de datos)
+- **JWT** (autenticación)
+- **Bcrypt** (hash de contraseñas)
+
+### Deployment
+
+- **PM2** (gestión de procesos)
+- **Vercel** (hosting frontend)
+- **MongoDB** (base de datos en la nube)
+
+---
+
+## 🚀 Instalación Local
+
+### 1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/MiniPandaG/proyecto-desarrollo-web
+cd contactpro
+```
+
+### 2. Instalar dependencias:
+
+```bash
+npm install
+```
+
+### 3. Configurar variables de entorno:
+
+```bash
+cp .env.local
+```
+
+Edita el archivo `.env.local` con tus credenciales.
+
+### 4. Iniciar la aplicación:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Estructura del Proyecto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```plaintext
+contactpro/
+├── app/
+│   ├── auth/               # Páginas de autenticación
+│   ├── contacts/           # Gestión de contactos
+│   ├── api/                # Endpoints API
+│   └── layout.tsx          # Layout principal
+├── components/             # Componentes reutilizables
+├── lib/                    # Utilidades y configuraciones
+├── public/                 # Archivos estáticos
+└── styles/                 # Estilos globales
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 👨‍💻 Equipo de Desarrollo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Este proyecto fue desarrollado por:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **[Andrés Camilo De Oro Pérez]**   
+- **[Jean Pierre Angulo Vergara]**
+- **[Israel David Prada Chinchilla]** 
+- **[Armando Rafael Morales Yepes]**
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 Licencia
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+CC0 1.0 Universal (CC0 1.0) - Dedicación al Dominio Público
+
+Este proyecto ha sido entregado al dominio público por sus autores.
+
+Puedes copiarlo, modificarlo, distribuirlo y usarlo para cualquier propósito, incluso comercial, sin pedir permiso.
+
+No se ofrece ninguna garantía. Usa el software bajo tu propio riesgo.

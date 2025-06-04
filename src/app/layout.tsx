@@ -38,9 +38,9 @@ export default function RootLayout({
                   <h3 className="text-lg font-semibold mb-4 text-blue-400">Desarrolladores</h3>
                   <ul className="text-gray-300 space-y-2">
                     <li>Andrés Camilo De Oro Pérez</li>
-                    <li>Estudiante 2</li>
-                    <li>Estudiante 3</li>
-                    <li>Estudiante 4</li>
+                    <li>Jean Pierre Angulo Vergara</li>
+                    <li>Israel David Prada Chinchilla</li>
+                    <li>Armando Rafael Morales Yepes</li>
                   </ul>
                 </div>
 
